@@ -42,6 +42,7 @@
         left: 10%;
     }
 
+/*CUADRADOS ABAJO D BANNER*/
 section h2{
   text-align: center;
 }
@@ -62,6 +63,8 @@ section h2{
   margin-top: 10px;
 }
 
+
+
 .video-index {
   display: flex;
   justify-content: center;
@@ -69,5 +72,89 @@ section h2{
   width: 100%;
   padding-top: 40px;
   padding-bottom: 80px; }
+
+
+
+/* cards imagenes*/
+.card-group {
+  text-align: center;
+  justify-content: center;
+  padding-right: 5%; }
+
+.contenedor-card {
+  padding-left: 5%;
+  display: block;
+  text-align: center;
+  justify-content: center; }
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  filter: drop-shadow(5px 5px 5px silver); }
+  .card:hover {
+    transition: 0.5s;
+    transform: scale(1.1); }
+
+.card-body {
+  padding: 15px; }
+  .card-body a {
+    background-color: white;
+    color: #E15FED;
+    font-size: 20px;
+    border-color: white; }
+
+.card-text {
+  margin-bottom: 10px; }
+
+.card-title {
+  font-style: italic;
+  font-weight: 1rem; }
+
+
+
+/*empieza footer*/
+
+  footer {
+    width: 100%;
+    height: 100px;}
+    footer ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      footer ul li {
+        display: inline-block;
+        justify-content: center;
+        padding-top: 2rem; }
+  
+  /*redes-footer index*/
+  .redes {
+    display: flex;
+    margin: 0%;
+    margin-block-start: 0%;
+    margin-block-end: 0%; }
+    .redes ul li {
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      margin: 0%; }
+  
+
+/*NUESTRA ESCUELA HTML*/
+.pilares {
+  text-align: justify;
+  margin: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-bottom: 2%;}
+
+.titulos{
+  font-style: oblique;
+  text-align: center;
+  padding: 2%;
+}
+
+
 
 
