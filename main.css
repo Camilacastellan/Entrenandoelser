@@ -1,3 +1,5 @@
+
+/* medida de 320px */
 .logo-index {
     display: flex;
     justify-content: center;
@@ -6,9 +8,21 @@
       margin: 0%; }
     .logo-index img {
       width: 4rem;
-    margin-left: 0px; }
+    margin-left: 5%; }
 
 /* PARTE ARRIBA INDEX */
+
+.barra-navegacion{
+  padding-top: 10%;
+  margin-top: 10%;
+}
+
+
+/* info principal  */
+.data{
+  background-color: rgb(161, 161, 252);
+  text-align: center;
+}
 .inicio{
     margin-left: 3%;
     margin-top: 1%;
@@ -18,36 +32,27 @@
     justify-content: center;
 }
 
-.data{
-    background-color: rgb(161, 161, 252);
-    text-align: center;
-}
+
+
+
 
 
 /* FOTO INDEX */
 .banner-inicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-    position: relative;}
-  
-  .banner-inicio img {
-    width: 100%;
-    height: 300px;
-    padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  position: relative;
+}
 
-    display: block;
-    padding-bottom: 40px; }
+.banner-inicio img {
+  width: 100%;
+  height: 330px;
+  padding-top: 10px;
 
-    .banner-inicio p{
-        font-size: 20px;
-        font-weight: 5rem;
-        color: white;
-        position: absolute;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+  display: block;
+  padding-bottom: 40px; }
 
 
 
@@ -58,86 +63,52 @@ padding-bottom: 5%;
 text-align: center;
 font-size: 20px;
 font-style: italic;
-font-weight: bolder;
+font-weight: 400;
+margin: 3%;
+color:  rgb(161, 161, 252);
+
 }
 
 
 .video-index {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-padding-top: 40px;
-padding-bottom: 80px; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  }
+
+
+  .video-index iframe{
+    width: 330px;
+    height: 210px;
+    padding:3%;
+    background-color: rgb(161, 161, 252);
     
+  }
+
+
 
 /*empieza footer*/
 footer {
 width: 100%;
-height: 100px;}
+height: 100px;
+padding-top: 5%;}
   footer ul {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-left: 0%; }
     footer ul li {
     display: inline-block;
     justify-content: center;
     padding-top: 2rem; }
-    
-    /*redes-footer index*/
-    .redes {
-      display: flex;
-      margin: 0%;
-      margin-block-start: 0%;
-      margin-block-end: 0%; }
-      .redes ul li {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-        margin: 0%; }
-    
   
-
-
-
-/*CUADRADOS ABAJO D BANNER*/
- section h2{
-  text-align: center;
-}
-
-/* .contenedor{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px;
-  padding: 10px;
-  
-}
-
-.item-1{
-  padding-right: 50px;
-  padding-top: 20px;
-  text-align: justify;
-} */
-
-/* .contenedor div{
-  padding: 12px;
-  margin: 10px;
-  border: solid 4px black;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 15px;
-  line-height: 32px;
-}
-
-.item-1 h4{
-  margin-top: 10px;
-}
-
-.item-1 p{
-  padding: 0%;
-  margin: 0%;
-} */ 
-
 
 
 
@@ -149,9 +120,10 @@ height: 100px;}
 
 .contenedor-card {
   padding-left: 5%;
+  padding-top: 5%;
   display: block;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;}
 
 .card {
   display: inline-block;
@@ -167,12 +139,18 @@ height: 100px;}
   padding: 15px; }
   .card-body a {
     background-color: white;
-    color: #E15FED;
     font-size: 20px;
-    border-color: white; }
+    border-color: white; 
+    color: rgb(146, 22, 213);
+    font-weight: bold;
+    font-style: oblique;
+    }
 
 .card-text {
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+  font-weight: 500; 
+  font-style: italic;
+  color: rgb(146, 22, 213);}
 
 .card-title {
   font-style: italic;
@@ -184,20 +162,27 @@ height: 100px;}
 
 
 /*NUESTRA ESCUELA HTML*/
-.pilares {
-  text-align: justify;
-  font-size: 16px;
-  margin: 2%;
+
+.somos{
+  padding: 0px;
   margin-right: 2%;
   margin-left: 2%;
-  padding-bottom: 2%;}
-
-.pilares h4{
-  color: #cc81d3;
-  font-style: italic;
-  font-weight: 5px;
-  font-size: 25px;
+  transition: all .3s ease-in-out;
 }
+.somos p {
+  text-align: center;
+  color: #E15FED;
+  font-size: 15px;
+  font-family:'Roboto Serif', serif;
+  margin: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+  }
+
+.somos:hover{
+  background-color: rgb(211, 211, 211);
+}
+
 
 .titulos{
   color: #cc81d3;
@@ -206,32 +191,68 @@ height: 100px;}
   padding: 2%;
 }
 
-@media screen and (min-width: 420px){
- /* INDEX  */
- .banner-inicio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; 
-  position: relative;}
 
-.banner-inicio img {
-  width: 100%;
-  height: 700px;
-  display: block;
-  padding-bottom: 40px; }
 
-  .banner-inicio p{
-      font-size: 3rem;
-      color: white;
-      position: absolute;
-      top:20% ;
-      left: 10%;
-  }
 
-  .texto-1{
-    padding-top: 60px;
-  }
+@media screen and (min-width: 600px){
+
+
+    .banner-inicio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; 
+      position: relative;}
+    
+    .banner-inicio img {
+      width: 100%;
+      height: 600px;
+      display: block;
+      padding-bottom: 40px; }
+    
+      .banner-inicio p{
+          font-size: 3rem;
+          color: white;
+          position: absolute;
+      }
+  
+      .video-index {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        
+        padding-bottom: 80px;
+        
+        /* computadora video */
+        background: url(/img/video-inicio.jpg);
+        background-repeat: no-repeat;
+        width: 446px;
+        height: 341px;
+        text-align: center;
+        margin: 0px;
+        margin-left:15%;
+       
+        
+        
+        }
+        
+        .video-index iframe{
+          width: 330px;
+          height: 210px;
+          top: 4px;
+          padding-top: 0%;
+          position: relative;
+          background-color: black;
+          
+        }
+
+        .barra-navegacion{
+          padding-top: 5%;
+          margin-top: 5%;
+        }
+
 
 } 
 
